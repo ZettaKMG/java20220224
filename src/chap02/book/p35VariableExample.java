@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class VariableExample35p {
+public class p35VariableExample {
 	public static void main(String[] args) {
 		// 10을 변수 value의 초기값으로 저장
 		int value = 10;

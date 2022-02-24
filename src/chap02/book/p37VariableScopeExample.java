@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class VariableScopeExample37p {
+public class p37VariableScopeExample {
 	public static void main(String[] args) {
 		int v1 = 15;
 		if (v1 > 10) {
