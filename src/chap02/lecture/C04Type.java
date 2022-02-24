@@ -20,7 +20,7 @@ public class C04Type {
 		// 문자(정수)
 		// char
 
-		// 참조형 (reference type) 위 8개 빼고 나머지
+		// 참조형 (reference type) 위 8개 빼고 나머지 다
 		// Chapter5 에서 설명
 
 		///////////////////////////////////////////////
