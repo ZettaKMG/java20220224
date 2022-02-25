@@ -28,7 +28,8 @@ public class p60_62checkQuestion {
 //			
 //		7. 변수를 잘못 초기화한 것은 무엇입니까?
 //			3) char var3 = ''; // 작은 따옴표 두 개가 붙어 있음
-		
-		
+//		
+//		8. 연산식에서의 타입 변환 내용입니다. 컴파일 에러가 생기는 것은 무엇입니까?
+//			1) byte result = byteValue + byteValue
 	}
 }
