@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class p60_62checkQuestion {
+public class p60_62CheckQuestion {
 	public static void main(String[] args) {
 		
 //		1. 자바에서 변수에 대한 설명 중 틀린 것은 무엇입니까? (x, 정답 4번)
