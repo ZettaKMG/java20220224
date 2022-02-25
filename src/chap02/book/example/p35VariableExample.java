@@ -1,4 +1,4 @@
-package chap02.book;
+package chap02.book.example;
 
 public class p35VariableExample {
 	public static void main(String[] args) {
