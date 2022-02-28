@@ -3,11 +3,11 @@ package chap03.lecture.ternary;
 public class C01Ternary {
 	public static void main(String[] args) {
 		
-		// »ïÇ×¿¬»êÀÚ
-		// 1¹øÇ× ? 2¹øÇ× : 3¹øÇ×
-		// ¿¬»ê°á°ú : 2¹øÇ× ¶Ç´Â 3¹øÇ×
-		// 1¹øÇ×ÀÌ trueÀÌ¸é 2¹øÇ×
-		//		falseÀÌ¸é 3¹øÇ×
+		// ì‚¼í•­ì—°ì‚°ì
+		// 1ë²ˆí•­ ? 2ë²ˆí•­ : 3ë²ˆí•­
+		// ì—°ì‚°ê²°ê³¼: 2ë²ˆí•­ ë˜ëŠ” 3ë²ˆí•­
+		//    1ë²ˆí•­ì´ trueì´ë©´ 2ë²ˆí•­
+		//         falseì´ë©´ 3ë²ˆí•­
 		
 		int i = true ? 1 : 2;
 		System.out.println(i);
@@ -15,11 +15,11 @@ public class C01Ternary {
 		int j = false ? 1 : 2;
 		System.out.println(j);
 		
-		System.out.println(true ? "°¡" : "³ª");
-		System.out.println(false ? "´Ù" : '¶ó');
+		System.out.println(true ? "ê°€" : "ë‚˜");
+		System.out.println(false ? "ë‹¤" : "ë¼");
 		
 		int k = 3;
-		System.out.println((k != 3) ? "¸¶" : "¹Ù");
+		System.out.println((k != 3) ? "ë§ˆ" : "ë°”");
 		
 		
 	}
