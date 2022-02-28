@@ -2,18 +2,18 @@ package chap03.lecture.method;
 
 public class C01Method {
 	public static void main(String[] args) {
-		System.out.println("¸í·É¹® 1");
+		System.out.println("ëª…ë ¹ë¬¸ 1");
 		mymethod1();
-		System.out.println("¸í·É¹® 2");
-		mymethod1(); // ¸Ş¼Òµå È£Ãâ
+		System.out.println("ëª…ë ¹ë¬¸ 2");
+		mymethod1(); // ë©”ì†Œë“œ í˜¸ì¶œ
 		
-		System.out.println("¸í·É¹® 3");
+		System.out.println("ëª…ë ¹ë¬¸ 3");
 		mymethod1();
 	}
 	
-	// ¸Ş¼Òµå Á¤ÀÇ
+	// ë©”ì†Œë“œ ì •ì˜
 	public static void mymethod1() {
-		System.out.println("¸¶ÀÌ¸Ş¼Òµå1");
-		System.out.println("¸¶ÀÌ¸Ş¼Òµå2");
+		System.out.println("ëª…ë ¹ë¬¸ 4");
+		System.out.println("ëª…ë ¹ë¬¸ 5");
 	}
 }

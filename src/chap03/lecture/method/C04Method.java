@@ -6,7 +6,7 @@ public class C04Method {
 //		myMethod1(3); // x
 		myMethod1(3, 5);
 		myMethod1(33, 55);
-		myMethod1('°¡', 33);
+		myMethod1('ê°€', 33);
 		
 		myMethod2(999, 888);
 	}
@@ -16,7 +16,7 @@ public class C04Method {
 		System.out.println(j);
 	}
 	
-	// ÆÄ¶ó¹ÌÅÍ¸í : lowerCamelCase
+	// íŒŒë¼ë¯¸í„°ëª… : lowerCamelCase
 	public static void myMethod2(int age, int height) {
 		System.out.println(age * 2);
 		System.out.println(height * 2);

@@ -5,7 +5,7 @@ public class C03Method {
 		myMethod1(300);
 		myMethod1(900);
 //		myMethod1(3.14); // x
-		myMethod1('°¡');
+		myMethod1('ê°€');
 		
 		int j = 999;
 		myMethod1(j);

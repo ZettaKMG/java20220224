@@ -2,17 +2,17 @@ package chap03.lecture.method;
 
 public class C02Method {
 	public static void main(String[] args) {
-		System.out.println("¸í·É¹®1");
+		System.out.println("ëª…ë ¹ë¬¸1");
 		myMethod1(300);
-		System.out.println("¸í·É¹®2");
+		System.out.println("ëª…ë ¹ë¬¸2");
 		myMethod1(3);
-		System.out.println("¸í·É¹®3");
+		System.out.println("ëª…ë ¹ë¬¸3");
 	}
 	
-	// ¸Ş¼Òµå¸í : lowerCamelCase	
-	// ()¿¡ ÆÄ¶ó¹ÌÅÍ Å¸ÀÔ°ú ÀÌ¸§ ÀÛ¼º °¡´É	
+	// ë©”ì†Œë“œëª… : lowerCamelCase
+	// () íŒŒë¼ë¯¸í„°íƒ€ì…ê³¼ íŒŒë¼ë¯¸í„°ëª… ì‘ì„± ê°€ëŠ¥
 	public static void myMethod1(int i) {
-		System.out.println("¸¶ÀÌ¸Ş¼Òµå 1");
-		System.out.println("ÆÄ¶ó¹ÌÅÍ iÀÇ °ª : " + i);
+		System.out.println("ë§ˆì´ë©”ì†Œë“œ 1");
+		System.out.println("íŒŒë¼ë¯¸í„° iì˜ ê°’ : " + i);
 	}
 }
