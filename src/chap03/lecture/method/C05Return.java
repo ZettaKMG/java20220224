@@ -3,30 +3,30 @@ package chap03.lecture.method;
 public class C05Return {
 	public static void main(String[] args) {
 		
-		System.out.println("¸í·É¹®1");
-		System.out.println("¸í·É¹®2");
+		System.out.println("ëª…ë ¹ë¬¸1");
+		System.out.println("ëª…ë ¹ë¬¸2");
 		int i = myMethod2();
-		System.out.println("¸í·É¹®3");
+		System.out.println("ëª…ë ¹ë¬¸3");
 		System.out.println(i);
 		
 	}
 	
 	public static void myMethod1() {
-		System.out.println("my method1 ¸í·É¹®1");
-		System.out.println("my method2 ¸í·É¹®2");
+		System.out.println("my method1 ëª…ë ¹ë¬¸1");
+		System.out.println("my method2 ëª…ë ¹ë¬¸2");
 		
-		// return : 1.¸Ş¼Òµå Á¾·á, 2.¿À¸¥ÂÊ¿¡ ÀÖ´Â °ªÀ» È£ÃâÇÑ °÷À¸·Î ¹İÈ¯(return)
+		// return : 1.ë©”ì†Œë“œ ì¢…ë£Œ, 2.ì˜¤ë¥¸ìª½ì— ìˆëŠ” ê°’ì„ í˜¸ì¶œí•œ ê³³ìœ¼ë¡œ ë°˜í™˜(return)
 		
 		return;
 		
-//		System.out.println("my method1 ¸í·É¹®3");
+//		System.out.println("my method1 ëª…ë ¹ë¬¸3");
 	}
 	
 	public static int myMethod2() {
-		// ¸Ş¼Òµå¸í ¾Õ¿¡ ¸®ÅÏÇÏ´Â °ªÀÇ Å¸ÀÔÀ» ¸í½ÃÇØ¾ß ÇÔ
-		// ¸¸¾à ¸®ÅÏÇÏ´Â °ªÀÌ ¾øÀ¸¸é void·Î ¸í½Ã
+		// ë©”ì†Œë“œëª… ì•ì— ë¦¬í„´í•˜ëŠ” ê°’ì˜ íƒ€ì… ëª…ì‹œí•´ì•¼í•¨
+		// ë§Œì•½ ë¦¬í„´í•˜ëŠ” ê°’ì´ ì—†ìœ¼ë©´ voidë¡œ ëª…ì‹œ
 		
-		System.out.println("my method2 ¸í·É¹®1");
+		System.out.println("my method2 ëª…ë ¹ë¬¸1");
 		
 		return 3;
 	}
