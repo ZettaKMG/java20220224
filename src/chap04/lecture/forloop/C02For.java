@@ -15,5 +15,11 @@ public class C02For {
 		for (int i = 5; i >= 0; i--) {
 			System.out.println("spring");
 		}
+		
+		// 다음 loop가 5번 실행되도록 y에 적절한 값을 대입하세요.
+		int y = 14;
+		for (int i = y; i >= 10; i--) {
+			System.out.println("jsp");
+		}
 	}
 }
