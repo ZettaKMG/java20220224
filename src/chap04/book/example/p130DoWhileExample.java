@@ -18,5 +18,6 @@ public class p130DoWhileExample {
 
 		System.out.println();
 		System.out.println("프로그램 종료");
+		scanner.close();
 	}
 }
