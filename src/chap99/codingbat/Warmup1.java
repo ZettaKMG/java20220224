@@ -30,4 +30,39 @@ public class Warmup1 {
 		return (Math.abs(100 - n) <= 10) || (Math.abs(200 - n) <= 10);
 	}
 
+	public boolean nearHundred_1(int n) {
+		int diff1 = 100 - n;
+		int diff2 = 200 - n;
+
+		if (Math.abs(diff1) <= 10 || Math.abs(diff2) <= 10) {
+			return true;
+		}
+
+		return false;
+	}
+
+	public boolean posNeg(int a, int b, boolean negative) {
+
+		if (negative) {
+			return a < 0 && b < 0;
+		} else {
+			return a * b < 0;
+		}
+	}
+
+	public String notString(String str) {
+
+		String front = "";
+		if (str.length() >= 3) {
+			front = str.substring(0, 3);
+		}
+
+		if (front.equals("not")) {
+			return str;
+		} else {
+			return "not " + str;
+		}
+
+	}
+
 }
