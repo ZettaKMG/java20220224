@@ -67,24 +67,44 @@ public class Array2 {
 
 		return sum / (nums.length - 2);
 	}
-	
+
 	public int sum13(int[] nums) {
-		  int sum = 0;
-		  boolean is13 = false;
-		  boolean was13 = false;
-		  
-		  for (int i = 0; i < nums.length; i++){
-		    is13 = nums[i] == 13;
-		    
-		    if (!was13 && !is13){
-		    sum += nums[i];
-		    }
-		    
-		    was13 = is13;
-		  }
-		  
-		  return sum;
+		int sum = 0;
+		boolean is13 = false;
+		boolean was13 = false;
+
+		for (int i = 0; i < nums.length; i++) {
+			is13 = nums[i] == 13;
+
+			if (!was13 && !is13) {
+				sum += nums[i];
+			}
+
+			was13 = is13;
 		}
 
+		return sum;
+	}
+
+	public int sum67(int[] nums) {
+		int sum = 0;
+
+		int i = 0;
+
+		while (i < nums.length) {
+
+			if (nums[i] == 6) {
+				while (nums[i] != 7) {
+					i++;
+				}
+			} else {
+				sum += nums[i];
+			}
+
+			i++;
+		}
+
+		return sum;
+	}
 
 }
