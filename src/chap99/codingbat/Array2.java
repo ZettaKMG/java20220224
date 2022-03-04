@@ -138,7 +138,7 @@ public class Array2 {
 		return true;
 
 	}
-	
+
 	public boolean lucky13_1(int[] nums) {
 
 		boolean has1 = false;
@@ -155,6 +155,26 @@ public class Array2 {
 		}
 
 		return !has1 && !has3;
+	}
+
+	public int[] fizzArray(int n) {
+		int[] result = new int[n];
+
+		for (int i = 0; i < n; i++) {
+			result[i] = i;
+		}
+
+		return result;
+	}
+
+	public int[] fizzArray3(int start, int end) {
+		int[] arr = new int[end - start];
+
+		for (int i = start; i < end; i++) {
+			arr[i - start] = i;
+		}
+
+		return arr;
 	}
 
 }

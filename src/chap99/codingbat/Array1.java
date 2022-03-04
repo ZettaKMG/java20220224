@@ -44,5 +44,27 @@ public class Array1 {
 		
 		return arr1;
 	}
+	
+	public int[] rotateLeft3(int[] nums) {
+		/*
+		int[] result = new int[3];
+		result[0] = nums[1];
+		result[1] = nums[2];
+		result[2] = nums[0];
+		
+		return result;
+		*/
+		/*
+		int[] result = new int[] {nums[1], nums[2], nums[0]};
+		return result;
+		*/
+
+		int tmp = nums[0];
+		nums[0] = nums[1];
+		nums[1] = nums[2];
+		nums[2] = tmp;
+
+		return nums;
+	}
 
 }
