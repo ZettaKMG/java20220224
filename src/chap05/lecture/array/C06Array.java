@@ -12,6 +12,12 @@ public class C06Array {
 		method1(arr2);
 		
 		System.out.println(arr2[0]);
+		
+		int[] param = { -1, -5, -6 };
+		
+		System.out.println(param[0]);
+		method1(param);
+		System.out.println(param[0]);
 	}
 	
 	public static void method1(int[] param) {
