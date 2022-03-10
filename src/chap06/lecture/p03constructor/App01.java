@@ -18,6 +18,8 @@ public class App01 {
 		System.out.println(s2.number);
 		*/
 		
+		// 생성자는 new 연산자와 함께 사용해서 instance를 만듬
+		// 생성자의 주요 코드는 '필드 초기화'
 		Student s1 = new Student("jin", 1);
 		Student s2 = new Student("winter", 2);
 		
