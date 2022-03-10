@@ -1,4 +1,4 @@
-package chap06.book.example;
+package chap06.book.example.s060401;
 
 public class StudentExample {
 	public static void main(String[] args) {
