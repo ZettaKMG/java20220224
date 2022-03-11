@@ -22,5 +22,6 @@ public class MyClass02 {
 	
 	static void method4() {
 		// 스태틱(클래스) 맴버에서 인스턴스 멤버 접근 불가능
+//		System.out.println(field1); // xxx
 	}
 }
