@@ -11,7 +11,7 @@ public class App06 {
 
 		// 여러개의 String 매개값을 받는 concat 메소드 작성
 		// 매개값으로 받은 스트링을 연결해서 출력
-		c.concat("java", "spring", "sql"); // "java, "spring , "sql" 출력
+		c.concat("java", "spring", "sql"); // "javaspringsql" 출력
 		c.concat("a", "b"); // "ab" 출력		
 		c.concat("mysql"); // "mysql" 출력
 	}

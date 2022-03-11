@@ -23,7 +23,7 @@ public class Calculator2 {
 
 	public void concat(String... strs) {
 		for (String str : strs) {
-			System.out.println(str);
+			System.out.print(str);
 		}
 		System.out.println();
 	}
