@@ -3,12 +3,12 @@ package chap06.book.example.s061303.package1;
 public class B {
 	public B() {
 		A a = new A();
-		a.field1 = 1;
-		a.field2 = 1;
-		a.field3 = 1;
+		a.field1 = 1;	// (o)
+		a.field2 = 1;	// (o)
+		a.field3 = 1;	// (x)
 		
-		a.method1();
-		a.method2();
-		a.method3();
+		a.method1();	// (o)
+		a.method2();	// (o)
+		a.method3();	// (x)
 	}
 }

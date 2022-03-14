@@ -9,13 +9,13 @@ public class A {
 	
 	// 생성자
 	public A() {
-		field1 = 1;
-		field2 = 1;
-		field3 = 1;
+		field1 = 1;	// (o)
+		field2 = 1;	// (o)
+		field3 = 1;	// (o)
 		
-		method1();
-		method2();
-		method3();
+		method1();	// (o)
+		method2();	// (o)
+		method3();	// (o)
 	}
 	
 	// 메소드
