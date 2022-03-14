@@ -41,11 +41,11 @@ public class BankApplication {
 	// 계좌생성하기
 	private static void createAccount() {
 		// 작성 위치
-		System.out.print("계좌번호:");
+		System.out.print("계좌번호: ");
 		String ano = scanner.next();
-		System.out.print("계좌주:");
+		System.out.print("계좌주: ");
 		String owner = scanner.next();
-		System.out.print("초기입금액:");
+		System.out.print("초기입금액: ");
 		int money = scanner.nextInt();
 
 		accountArray[size] = new Account(ano, owner, money);
@@ -70,12 +70,12 @@ public class BankApplication {
 	// 예금하기
 	private static void deposit() {
 		// 작성 위치
-		System.out.print("계좌번호:");
+		System.out.print("계좌번호: ");
 		String ano = scanner.next();
 
 		Account account = findAccount(ano);
 
-		System.out.print("예금액:");
+		System.out.print("예금액: ");
 		int money = scanner.nextInt();
 		int balance = account.getBalance();
 		account.setBalance(balance + money);
@@ -86,12 +86,12 @@ public class BankApplication {
 	// 출금하기
 	private static void withdraw() {
 		// 작성 위치
-		System.out.print("계좌번호:");
+		System.out.print("계좌번호: ");
 		String ano = scanner.next();
 
 		Account account = findAccount(ano);
 
-		System.out.print("출금액:");
+		System.out.print("출금액: ");
 		int money = scanner.nextInt();
 		int balance = account.getBalance();
 		account.setBalance(balance - money);
