@@ -5,6 +5,7 @@ public class A {
 	public int field1;
 	int field2;
 	private int field3;
+	protected int field4;
 	
 	// 생성자
 	public A() {
