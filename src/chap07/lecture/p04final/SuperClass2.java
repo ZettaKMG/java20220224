@@ -1,5 +1,6 @@
 package chap07.lecture.p04final;
 
-public final class SuperClass2 {
+// final 클래스는 상속 불가
+final public class SuperClass2 {
 	
 }
