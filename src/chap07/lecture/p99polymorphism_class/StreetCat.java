@@ -4,6 +4,6 @@ public class StreetCat extends Feline {
 	
 	@Override
 	public void cry() {
-		System.out.println("야옹");
+		System.out.println("야옹~");
 	}
 }
