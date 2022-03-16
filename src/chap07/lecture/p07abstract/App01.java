@@ -10,5 +10,12 @@ public class App01 {
 		
 		c1.play();
 		c2.play();
+		
+		method(c1);
+		method(c2);
+	}
+	
+	public static void method(Canine dog) {
+		dog.play();
 	}
 }
