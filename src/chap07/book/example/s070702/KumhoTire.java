@@ -16,7 +16,8 @@ public class KumhoTire extends Tire {
 			System.out.println(location + " KumhoTire 수명: " + (maxRotation-accumulatedRotation) + "회");
 			return true;
 		} else {
-			
+			System.out.println("*** " + location + " KumhoTire 펑크 ***");
+			return false;
 		}
-	}
+	} // 출력 내용을 달리하기 위해 재정의(오버라이딩)한 roll() 메소드
 }
