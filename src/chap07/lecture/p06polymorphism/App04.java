@@ -1,4 +1,4 @@
-package chap07.lecture.p99polymorphism_class;
+package chap07.lecture.p06polymorphism;
 
 import chap07.lecture.p99polymorphism_class.Animal;
 import chap07.lecture.p99polymorphism_class.Canine;
@@ -12,6 +12,7 @@ public class App04 {
 		method(new Canine());
 		method(new Feline());
 		method(new Chihuahua());
+		method(new StreetCat());
 	}
 	
 	public static void method(Animal animal) {
