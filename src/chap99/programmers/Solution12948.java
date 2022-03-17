@@ -1,6 +1,7 @@
 package chap99.programmers;
 
 public class Solution12948 {
+	/*
 	public String solution(String phone_number) {
 		String answer = "";
 		String PN = phone_number;
@@ -13,6 +14,7 @@ public class Solution12948 {
 
 		return answer + PN.substring(PN.length() - 4);
 	}
+	*/
 
 	public String solution1(String phone_number) {
 		String answer = "";
