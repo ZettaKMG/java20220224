@@ -4,8 +4,8 @@ public class NestedClassExample {
 	public static void main(String[] args) {
 		Car myCar = new Car();
 		
-		Car.Tire tire = 
+		Car.Tire tire = new Tire();
 				
-		Car.Engine engine = 
+		Car.Engine engine = new Engine();
 	}
 }
