@@ -15,7 +15,7 @@ public class App09_exercise03_example {
 			}
 		};
 		
-		o1.method2(); // (x)
+		o1.method2(); // (x) -> 인터페이스에서 디폴트 메소드 만들어서 해결함.
 		o1.method1();
 	}
 }
