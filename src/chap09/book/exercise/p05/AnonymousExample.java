@@ -5,8 +5,13 @@ public class AnonymousExample {
 		Anonymous anony = new Anonymous();
 		anony.field.run();
 		anony.method1();
-		anony.method2(
+		anony.method2(new Vehicle() {
+			@Override
+			public void method2() {
+				System.out.println("");
+			}
+		});
 				
-		);
+		
 	}
 }
