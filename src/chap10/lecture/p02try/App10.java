@@ -4,7 +4,7 @@ public class App10 {
 	public static void main(String[] args) {
 		// return 명령문 실행되어도 finally block 실행됨
 		
-		String s = null;
+		String s = "java";
 		
 		try {
 			System.out.println(s.length());
