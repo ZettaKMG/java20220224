@@ -2,7 +2,7 @@ package chap10.book.exercise;
 
 public class p01_05 {
 //	1. 예외에 대한 설명 중 틀린 것은 무엇입니까?
-//			
+//		4) 자바 표준 예외만 프로그램에서 처리할 수 있다.
 //	
 //	2. try-catch-finally 블록에 대한 설명 중 틀린 것은 무엇입니까?
 //		3) try {} 블록에서 return문을 사용하면 finally {} 블록은 실행되지 않는다.
