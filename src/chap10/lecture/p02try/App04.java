@@ -17,8 +17,6 @@ public class App04 {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("어레이인덱스아웃오브바운즈익셉션 발생");
 		} 
-		// catch 블럭 여러개 작성시
-		// 하위 타입보다 상위 타입을 아래에 작성
 
 		System.out.println("프로그램 실행 계속");
 
