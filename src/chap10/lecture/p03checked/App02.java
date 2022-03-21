@@ -10,7 +10,7 @@ public class App02 {
 		int i = Integer.parseInt(s);
 		// NumberFormatException 발생 가능
 		// NumberFormatException은 RuntimeException(unchecked exception)
-		// 이어서 컴파일러가 검사안함
+		// 이어서 컴파일러가 검사안함 (uncheck)
 		
 		try {
 			FileReader fr = new FileReader("");
