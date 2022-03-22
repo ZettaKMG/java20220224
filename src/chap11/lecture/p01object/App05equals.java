@@ -21,7 +21,7 @@ class Car {
 	public boolean equals(Object obj) {
 		if (obj instanceof Car) {
 			Car c = (Car) obj;
-			if (c.company.equals(this.company) && c.model.equals(this.model)) {
+			if (this.company.equals(c.company) && this.model.equals(c.model)) {
 				return true;
 			}
 		}
