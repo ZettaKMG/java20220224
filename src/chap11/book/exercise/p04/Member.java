@@ -12,6 +12,6 @@ public class Member {
 	// 코드 작성
 	@Override
 	public String toString() {
-		return "id: " + id + name; 
+		return id + ": " + name; 
 	}
 }
