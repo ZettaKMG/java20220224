@@ -27,10 +27,10 @@ public class EnumWeekExample {
 		case 5:
 			today = Week.THURSDAY;
 			break;			
-		cate 6:
+		case 6:
 			today = Week.FRIDAY;
 			break;
-		cast 7:
+		case 7:
 			today = Week.SATURDAY;
 			break;			
 		}
