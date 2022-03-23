@@ -11,12 +11,7 @@ public class Warmup1 {
 
 	public int sumDouble(int a, int b) {
 		return a == b ? (a + b) * 2 : a + b;
-	}
-
-	public int diff21(int n) {
-		int dif = 21 - n;
-		return (dif >= 0) ? dif : dif * (-2);
-	}
+	}	
 
 	public boolean parrotTrouble(boolean talking, int hour) {
 		return talking && (hour < 7 || hour > 20);
@@ -66,6 +61,11 @@ public class Warmup1 {
 	}
 	
 	public int diff21(int n) {
+		int dif = 21 - n;
+		return (dif >= 0) ? dif : dif * (-2);
+	}
+	
+	public int diff21_1(int n) {
 		  int diff = 21 - n;
 		  if (n <= 21) {
 		    return Math.abs(diff);
