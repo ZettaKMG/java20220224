@@ -10,5 +10,4 @@ public class Solution1816 {
 
 		return str;
 	}
-
 }
