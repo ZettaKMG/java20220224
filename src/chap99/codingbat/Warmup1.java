@@ -64,5 +64,26 @@ public class Warmup1 {
 		}
 
 	}
+	
+	public int diff21(int n) {
+		  int diff = 21 - n;
+		  if (n <= 21) {
+		    return Math.abs(diff);
+		  } else {
+		    return Math.abs(diff) * 2;
+		  } 
+		}
+	
+	public int close10(int a, int b) {
+		  int cl1 = Math.abs(10-a);
+		  int cl2 = Math.abs(10-b);
+		  if(cl1 < cl2) {
+		    return a;
+		  } else if (cl1 > cl2) {
+		    return b;
+		  } else {
+		    return 0;
+		  }
+		}
 
 }
