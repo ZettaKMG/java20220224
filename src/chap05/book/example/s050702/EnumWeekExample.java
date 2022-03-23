@@ -9,7 +9,7 @@ public class EnumWeekExample {
 		Week today = null; // 열거 타입 변수 선언
 		
 		Calendar cal = Calendar.getInstance();
-		int Week = cal.get(Calendar.DAY_OF_WEEK); // 일(1)~토(7)까지의 숫자를 리턴
+		int week = cal.get(Calendar.DAY_OF_WEEK); // 일(1)~토(7)까지의 숫자를 리턴
 		
 		switch (week) {
 		case 1:
