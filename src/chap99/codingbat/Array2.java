@@ -12,25 +12,6 @@ public class Array2 {
 		return cnt;
 	}
 
-	public int bigDiff(int[] nums) {
-		int max = nums[0];
-		int min = nums[0];
-
-		for (int i = 0; i < nums.length; i++) {
-			if (max < nums[i]) {
-				max = nums[i];
-			}
-		}
-
-		for (int j = 0; j < nums.length; j++) {
-			if (min > nums[j]) {
-				min = nums[j];
-			}
-		}
-
-		return max - min;
-	}
-
 	public int centeredAverage(int[] nums) {
 		int sum = 0;
 		int max = nums[0];
@@ -189,6 +170,25 @@ public class Array2 {
 	}
 	
 	public int bigDiff(int[] nums) {
+		int max = nums[0];
+		int min = nums[0];
+
+		for (int i = 0; i < nums.length; i++) {
+			if (max < nums[i]) {
+				max = nums[i];
+			}
+		}
+
+		for (int j = 0; j < nums.length; j++) {
+			if (min > nums[j]) {
+				min = nums[j];
+			}
+		}
+
+		return max - min;
+	}
+	
+	public int bigDiff1(int[] nums) {
 		  int max = Integer.MIN_VALUE;
 		  int min = Integer.MAX_VALUE;
 		  
@@ -199,6 +199,11 @@ public class Array2 {
 		  
 		  return Math.abs(max-min);
 		}
-
+	
+	public int bigDiff2(int[] nums) {
+		  java.util.Arrays.sort(nums);
+		  
+		  return nums[nums.length - 1] - nums[0];
+		}
 
 }
