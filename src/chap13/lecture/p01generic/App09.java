@@ -24,6 +24,6 @@ public class App09 {
 	// ? : wild card
 	public static void method(ArrayList<? extends Pet> param) {
 		param.get(0).roll(); // Pet의 roll 메소드
-	}	
+	}
 	
 }
