@@ -14,7 +14,7 @@ public class App08 {
 		System.out.println(e1);
 		System.out.println(e2);
 		
-		List<String> list2 = list1; // ArrayList<String>은 
-		ArrayList<Object> list3 = list1;
+		List<String> list2 = list1; // ArrayList<String>은 List<String>의 하위 타입
+		ArrayList<Object> list3 = list1; // 
 	}
 }
