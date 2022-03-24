@@ -17,8 +17,23 @@ public class App11 {
 		method(list3);
 	}
 	
+	// wild card 사용 가이드라인
+	// https://docs.oracle.com/javase/tutorial/java/generics/wildcardGuidelines.html
+	// "in" variable : extends
+	// "out" variable : super
+	// "in" Object : ?
+	// "in", "out" 동시에 : 와일드 카드 쓰지 말고 직접 명시
+	
+	// 상하위 타입 그림
+	// https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html
+	
 	public static void method(ArrayList<?> list) {
+		Object o = list.get(0);
 		;
-		;
+	}
+	
+	public static void method2(ArrayList<Cat> list) {
+		list.add(new Cat());
+		Cat cat = list.get(0);
 	}
 }
