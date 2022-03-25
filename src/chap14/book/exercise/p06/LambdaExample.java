@@ -25,7 +25,15 @@ public class LambdaExample {
 		double englishAvg = avg( (Student s) -> { return s.getEnglishScore(); } );
 		System.out.println("영어 평균 점수: " + englishAvg);
 		
-		double mathAvg = avg( s -> s.getMathScore());
+//		double mathAvg = avg( s -> s.getMathScore());
+		
+		ToIntFunction<Student> a = new ToIntFunction<LambdaExample.Student>() {
+			@Override
+			public int applyAsInt(Student param) {
+				return param.getMathScore();
+			}
+		};
+		double mathAvg = avg(a);
 		System.out.println("수학 평균 점수: " + mathAvg);
 	}
 	
