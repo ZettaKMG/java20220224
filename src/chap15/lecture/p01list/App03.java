@@ -1,4 +1,4 @@
-package chap15.p01list;
+package chap15.lecture.p01list;
 
 import java.util.ArrayList;
 import java.util.List;
