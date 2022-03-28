@@ -1,6 +1,6 @@
 package chap12.book.exercise.p02;
 
-public class MovieThread implements Runnable {
+public class MovieThread extends Thread {
 	@Override
 	public void run() {
 		for(int i = 0; i < 3; i++) {
