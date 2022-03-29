@@ -25,7 +25,15 @@ public class HashSetExample1 {
 		
 		System.out.println("총 객체수: " + set.size());
 		
-		iterator = set.iterator();
+		iterator = set.iterator(); // 반복자 얻기
+		while(iterator.hasNext()) { // 객체 수 만큼 루핑
+			String element = iterator.next();
+			System.out.println("\t" + element);
+		}
 		
+		set.clear(); // 모든 객체를 제거하고 비움
+		if(set.isEmpty()) {
+			System.out.println("비어 있음");
+		}
 	}
 }
