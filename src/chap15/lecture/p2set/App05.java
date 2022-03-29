@@ -25,6 +25,11 @@ class Car {
 	Car(String model){
 		this.model = model;
 	}
+	
+	@Override
+	public String toString() {
+		return "Car [model=" + model + "]";
+	}
 
 	@Override
 	public int hashCode() {
