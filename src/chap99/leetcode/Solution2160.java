@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class Solution2160 {
 	public int minimumSum(int num) {
-//	         int n1 = num % 10;
+		// int n1 = num % 10;
 
-//	         num = num / 10;
+		// num = num / 10;
 
-//	         int n2 = num % 10;
+		// int n2 = num % 10;
 
-//	         num = num / 10;
+		// num = num / 10;
 
-//	         int n3 = num % 10;
+		// int n3 = num % 10;
 
-//	         num = num / 10;
+		// num = num / 10;
 
-//	         int n4 = num % 10;
+		// int n4 = num % 10;
 
-//	         int[] arr = {n1, n2, n3, n4};
+		// int[] arr = {n1, n2, n3, n4};
 
 		int[] arr = new int[4];
 
