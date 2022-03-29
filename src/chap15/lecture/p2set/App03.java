@@ -1,11 +1,11 @@
 package chap15.lecture.p2set;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 import java.util.Set;
 
+import org.junit.jupiter.api.Test;
 
 public class App03 {
 	
@@ -21,10 +21,10 @@ public class App03 {
 		// nums가 중복된 값을 가지고 있으면 true, 아니면 false
 		Set<Integer> set = new HashSet<>();
 		
-		set.add(nums)
+		for (int num : nums) {
+			set.add(num);
+		}		
 		
-		
-		
-		return false;
+		return nums.length != set.size();
 	}
 }
