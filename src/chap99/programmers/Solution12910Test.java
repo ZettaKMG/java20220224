@@ -1,6 +1,10 @@
 package chap99.programmers;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
 
 public class Solution12910Test {
 

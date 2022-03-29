@@ -5,13 +5,13 @@ public class Solution12948 {
 	public String solution(String phone_number) {
 		String answer = "";
 		String PN = phone_number;
-
+	
 		for (int i = 0; i < PN.length(); i++) {
 			if (i < PN.length() - 4) {
 				answer += "*";
 			}
 		}
-
+	
 		return answer + PN.substring(PN.length() - 4);
 	}
 	*/
