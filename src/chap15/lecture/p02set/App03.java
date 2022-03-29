@@ -1,4 +1,4 @@
-package chap15.lecture.p2set;
+package chap15.lecture.p02set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
