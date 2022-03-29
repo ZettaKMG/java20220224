@@ -1,11 +1,9 @@
 package chap15.book.example.s150301;
 
-import java.util.Set;
-
-import chap11.book.example.s110301.Member;
+import java.util.*;
 
 public class HashSetExample2 {
-	public static void mainMemberg[] args) {
+	public static void main(String[] args) {
 		Set<Member> set = new HashSet<Member>();
 		
 		set.add(new Member("홍길동", 30)); // 인스턴스는 다르지만 내부 데이터가
