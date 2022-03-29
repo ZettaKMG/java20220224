@@ -35,16 +35,16 @@ public class Array1 {
 		// return arr1;
 
 		// return new int[] { 3, 1, 4 };
-		
+
 		int[] arr1;
 		arr1 = new int[3];
 		arr1[0] = 3;
 		arr1[1] = 1;
 		arr1[2] = 4;
-		
+
 		return arr1;
 	}
-	
+
 	public int[] rotateLeft3(int[] nums) {
 		/*
 		int[] result = new int[3];

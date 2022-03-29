@@ -168,7 +168,7 @@ public class Array2 {
 
 		return result;
 	}
-	
+
 	public int bigDiff(int[] nums) {
 		int max = nums[0];
 		int min = nums[0];
@@ -187,23 +187,23 @@ public class Array2 {
 
 		return max - min;
 	}
-	
+
 	public int bigDiff1(int[] nums) {
-		  int max = Integer.MIN_VALUE;
-		  int min = Integer.MAX_VALUE;
-		  
-		  for (int num : nums) {
-		    max = Math.max(max, num);
-		    min = Math.min(min, num);
-		  }
-		  
-		  return Math.abs(max-min);
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
+
+		for (int num : nums) {
+			max = Math.max(max, num);
+			min = Math.min(min, num);
 		}
-	
+
+		return Math.abs(max - min);
+	}
+
 	public int bigDiff2(int[] nums) {
-		  java.util.Arrays.sort(nums);
-		  
-		  return nums[nums.length - 1] - nums[0];
-		}
+		java.util.Arrays.sort(nums);
+
+		return nums[nums.length - 1] - nums[0];
+	}
 
 }

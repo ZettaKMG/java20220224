@@ -28,7 +28,7 @@ public class String2 {
 	public boolean catDog(String str) {
 		int cntcat = 0;
 		int cntdog = 0;
-		
+
 		for (int i = 0; i < str.length() - 2; i++) {
 			String subcat = str.substring(i, i + 3);
 			String subdog = str.substring(i, i + 3);
