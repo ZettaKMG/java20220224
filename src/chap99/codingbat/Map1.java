@@ -146,7 +146,29 @@ public class Map1 {
 //		}
 //		return map;
 //	}
-	
-	
+
+	public Map<String, String> mapAB4(Map<String, String> map) {
+		boolean hasA = map.containsKey("a");
+		boolean hasB = map.containsKey("b");
+
+		if (hasA && hasB) {
+			String aVal = map.get("a");
+			String bVal = map.get("b");
+
+			int alength = aVal.length();
+			int blength = bVal.length();
+
+			if (alength == blength) {
+				map.put("a", "");
+				map.put("b", "");
+			} else if (alength > blength) {
+				map.put("c", aVal);
+			} else {
+				map.put("c", bVal);
+			}
+		}
+
+		return map;
+	}
 
 }
