@@ -1,5 +1,9 @@
 package chap99;
 
+//import java.util.ArrayList; 
+//import java.util.Arrays;
+//import java.util.List;
+
 public class practice {
 	public static void main(String[] args) {
 //		int i = 0;
@@ -33,6 +37,14 @@ public class practice {
 //		
 //		System.out.println(b[0]+b[1]);
 				
+//		List<String> list = new ArrayList<>();
+//		list = Arrays.asList("a", "b", "c");
+//		
+//		String result = "";
+//		list.forEach(e -> result += e);
+//		
+//		System.out.println(result);
+		
 	}
 	
 //	public char method1() {
