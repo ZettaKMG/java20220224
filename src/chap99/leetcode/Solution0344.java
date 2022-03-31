@@ -1,6 +1,6 @@
 package chap99.leetcode;
 
-public class Solution344 {
+public class Solution0344 {
 	public void reverseString(char[] s) {
 		int left = 0;
 		int right = s.length - 1;

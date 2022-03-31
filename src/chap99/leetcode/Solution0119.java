@@ -3,7 +3,7 @@ package chap99.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution119 {
+public class Solution0119 {
 	//	public List<Integer> getRow(int rowIndex) {
 	//        List<Integer> list1 = new ArrayList<>();
 	//        list1.add(1);

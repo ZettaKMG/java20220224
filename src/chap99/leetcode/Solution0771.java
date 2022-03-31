@@ -3,7 +3,7 @@ package chap99.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution771 {
+public class Solution0771 {
 //	public int numJewelsInStones(String jewels, String stones) {
 //		int cnt = 0;
 //		for (int i = 0; i < jewels.length(); i++) {

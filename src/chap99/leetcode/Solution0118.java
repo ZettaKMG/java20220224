@@ -3,7 +3,7 @@ package chap99.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution118 {
+public class Solution0118 {
 	public List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> result = new ArrayList<>();
 		List<Integer> first = new ArrayList<>();

@@ -3,7 +3,7 @@ package chap99.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution287 {
+public class Solution0287 {
 //	public int findDuplicate(int[] nums) {
 //		Set<Integer> set = new HashSet<>();
 //

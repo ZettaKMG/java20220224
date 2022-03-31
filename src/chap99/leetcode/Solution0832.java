@@ -1,6 +1,6 @@
 package chap99.leetcode;
 
-public class Solution832 {
+public class Solution0832 {
 	public int[][] flipAndInvertImage(int[][] image) {
 
 		for (int[] row : image) {
