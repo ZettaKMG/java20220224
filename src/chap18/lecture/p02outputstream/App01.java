@@ -15,7 +15,7 @@ public class App01 {
 			os.write(99); // 1 byte 쓰기
 			os.write(999999999); // 1 byte 쓰기
 			os.write(98798798); // 1 byte 쓰기
-			
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
