@@ -12,8 +12,7 @@ public class App03 {
 		String inputFile = "src/chap18/lecture/p02outputstream/App03.java";
 		String outputFile = "output/OutputStreamEx03.txt";
 
-		try (
-				InputStream is = new FileInputStream(inputFile);
+		try (	InputStream is = new FileInputStream(inputFile);
 				OutputStream os = new FileOutputStream(outputFile);) {
 
 			int data = 0;

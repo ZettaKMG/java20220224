@@ -11,8 +11,7 @@ public class App02 {
 		String inputFile = "src/chap18/lecture/p02outputstream/App02.java";
 		String outputFile = "output/OutputStreamEx02.txt";
 
-		try (
-				InputStream is = new FileInputStream(inputFile);
+		try (	InputStream is = new FileInputStream(inputFile);
 				OutputStream os = new FileOutputStream(outputFile);) {
 
 			int data1 = is.read();
