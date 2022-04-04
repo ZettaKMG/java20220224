@@ -15,7 +15,6 @@ public class App08 {
 		BufferedWriter bw = new BufferedWriter(osw);
 		
 		// 천만개의 문자 파일에 쓰는 코드 작성
-		int data = 0;
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < 10000000; i++) {
 			bw.write('가');
@@ -28,5 +27,7 @@ public class App08 {
 		bw.close();
 		osw.close();
 		os.close();
+		
+		System.out.println("종료!!!");
 	}
 }
