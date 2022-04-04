@@ -6,6 +6,7 @@ import java.io.Writer;
 
 public class App05 {
 	public static void main(String[] args) throws Exception {
+		String path = "output/FilterExample51.txt";
 		normalWriter();
 		bufferedWriter();
 	}
@@ -22,6 +23,9 @@ public class App05 {
 		long end = System.currentTimeMillis();
 		
 		System.out.println(end - start);		
+		
+		bw.close();
+		writer.close();
 	}
 
 	private static void normalWriter() throws Exception {
@@ -35,5 +39,7 @@ public class App05 {
 		long end = System.currentTimeMillis();
 		
 		System.out.println(end - start);		
+		
+		writer.close();
 	}	
 }
